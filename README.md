@@ -10,9 +10,10 @@ To set up and run the website locally, follow these steps:
    git clone https://github.com/username/lume-group-website.git
 
 2. Navigate to the project directory:
+   ```bash
    cd lume-group.github.io
 
-3. Install dependencies (if any) and start the development server.
+4. Install dependencies (if any) and start the development server.
 
 ## Deployment
 This website is hosted on GitHub Pages. Any changes pushed to the main branch will automatically deploy the website.
