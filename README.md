@@ -1,2 +1,2 @@
-# lume-group.github.io
-Official website for LUME Group, showcasing company information, services, and contact details.
+# LUME Group Website
+Welcome to the official website repository for LUME Group. This site showcases our company’s services, news, and contact information.
