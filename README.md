@@ -1,4 +1,4 @@
-# lumegroup.github.io
+# Home
 Official website for LUME Group, showcasing company information, services, and contact details.
 
 ## Getting Started
