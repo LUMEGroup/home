@@ -1,4 +1,4 @@
-# lume-group.github.io
+# lumegroup.github.io
 Official website for LUME Group, showcasing company information, services, and contact details.
 
 ## Getting Started
@@ -7,11 +7,11 @@ To set up and run the website locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/lume-group-website.git
+   git clone https://github.com/LUMEGroup/lumegroup.github.io.git
 
 2. Navigate to the project directory:
    ```bash
-   cd lume-group.github.io
+   cd lumegroup.github.io
 
 4. Install dependencies (if any) and start the development server.
 
