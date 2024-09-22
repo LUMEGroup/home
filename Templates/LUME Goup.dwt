@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- #BeginTemplate "/Templates/LUME Goup.dwt" --><!-- DW6 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta charset="UTF-8">
@@ -76,7 +76,7 @@
         /* Additional styles */
         body {
 	background-color: #000000; /* Black background for body */
-	background-image: url(images/GettyImages-1000892576-header-hero.gif);
+	background-image: url(../images/GettyImages-1000892576-header-hero.gif);
 	background-size: cover; /* Ensures the image covers the entire screen */
     background-position: center; /* Centers the image */
 	background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 </head>
 <body>
     <div id="header">
-        <div align="center"><img id="logo" src="Templates/images/logo.png" alt="LUME Group Logo" />
+        <div align="center"><img id="logo" src="images/logo.png" alt="LUME Group Logo" />
         </div>
         <div id="header-text">
             <h1 align="center" class="style2"><strong>LUME Group</strong></h1>
@@ -96,27 +96,27 @@
             <div class="nav-container">
                 <p>
                     <span class="style8">
-                        <a class="nav-link" href="index.html">Home</a> |
-                        <a class="nav-link" href="index.html">About Us</a> |
-                        <a class="nav-link" href="index.html">Investor Relations</a> |
-                        <a class="nav-link" href="index.html">Portfolio</a> |
-                        <a class="nav-link" href="index.html">Services</a> |
-                        <a class="nav-link" href="index.html">News</a>                    </span>                </p>
+                        <a class="nav-link" href="../index.html">Home</a> |
+                        <a class="nav-link" href="../index.html">About Us</a> |
+                        <a class="nav-link" href="../index.html">Investor Relations</a> |
+                        <a class="nav-link" href="../index.html">Portfolio</a> |
+                        <a class="nav-link" href="../index.html">Services</a> |
+                        <a class="nav-link" href="../index.html">News</a>                    </span>                </p>
             </div>
             <p align="center">&nbsp;</p>
         </div>
     </div>
 
     <!-- Editable Content Area -->
-    <!-- #BeginEditable "MainContent" -->
+    <!-- TemplateBeginEditable name="MainContent" -->
     <div id="content">
         <p class="style4">This is the content area.</p>
     </div>
-    <!-- #EndEditable -->
+    <!-- TemplateEndEditable -->
 
     <div id="footer">
-        <p class="style3"><strong><span class="style6"><a class="nav-link" href="index.html">Data Protection</a> | <a class="nav-link" href="index.html">Privacy</a> | <a class="nav-link" href="index.html">Terms of Use</a> | <a class="nav-link" href="index.html">Compliance</a> | <a class="nav-link" href="index.html">Careers</a> | <a class="nav-link" href="index.html">FAQs</a> | <a class="nav-link" href="index.html">Contact Us</a></span></strong></p>
+        <p class="style3"><strong><span class="style6"><a class="nav-link" href="../index.html">Data Protection</a> | <a class="nav-link" href="../index.html">Privacy</a> | <a class="nav-link" href="../index.html">Terms of Use</a> | <a class="nav-link" href="../index.html">Compliance</a> | <a class="nav-link" href="../index.html">Careers</a> | <a class="nav-link" href="../index.html">FAQs</a> | <a class="nav-link" href="../index.html">Contact Us</a></span></strong></p>
         <p class="style3">&copy; 2024 LUME Group. All rights reserved.</p>
     </div>
 </body>
-<!-- #EndTemplate --></html>
+</html>
