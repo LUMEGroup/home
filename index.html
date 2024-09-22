@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUME Group Template</title>
+    <title>LUME Group</title>
 
     <style>
         /* Style the header container */
@@ -16,6 +16,10 @@
             box-sizing: border-box;
             width: 100%;
             background-color: #FFCC00; /* Yellow background for header */
+            position: fixed; /* Fix header to the top */
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure it stays above other content */
         }
 
         /* Style the logo */
@@ -71,37 +75,68 @@
             color: #FFFFFF; /* White text color */
             padding: 20px; /* Padding for spacing */
             text-align: center; /* Centered text */
+            position: fixed; /* Fix footer to the bottom */
+            bottom: 0;
+            left: 0;
+            width: 100%; /* Full width */
         }
 
         /* Additional styles */
         body {
-	background-color: #000000; /* Black background for body */
-	background-image: url(images/GettyImages-1000892576-header-hero.gif);
-	background-size: cover; /* Ensures the image covers the entire screen */
-    background-position: center; /* Centers the image */
-	background-repeat: no-repeat;
+            background-color: #000000; /* Black background for body */
+            background-image: url(images/GettyImages-1000892576-header-hero.gif);
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-repeat: repeat;
+            margin: 0; /* Space for the footer */
+            overflow: auto; /* Enable scrolling */
         }
-    .style4 {color: #FFFFFF}
-.style6 {font-size: 12px}
-    .style8 {color: #FFFFFF; font-weight: bold; }
+
+        #content {
+	border-radius: 8px; /* Optional rounded corners */
+	background-color: rgba (0, 0, 0, 0.5); /* Black background with 50% opacity */
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding-top: 20px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	background-attachment: scroll;
+        }
+
+        .style4 {color: #FFFFFF}
+        .style8 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: x-large;
+}
+    a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #0000FF;
+}
+    .style9 {font-size: medium}
     </style>
 </head>
 <body>
     <div id="header">
-        <div align="center"><img id="logo" src="Templates/images/logo.png" alt="LUME Group Logo" />
-        </div>
+        <div align="center"><img id="logo" src="images/logo.png" alt="LUME Group Logo" /></div>
         <div id="header-text">
             <h1 align="center" class="style2"><strong>LUME Group</strong></h1>
-            <h2 align="center" class="style4 style3"><strong>Privately held individual</strong> <strong>media/entertainment investments</strong></h2>
+            <h2 align="center" class="style4 style3"><strong>Privately held individual</strong></h2>
+            <h2 align="center" class="style4 style3"><strong>media/entertainment investments</strong></h2>
             <div class="nav-container">
                 <p>
                     <span class="style8">
                         <a class="nav-link" href="index.html">Home</a> |
-                        <a class="nav-link" href="index.html">About Us</a> |
-                        <a class="nav-link" href="index.html">Investor Relations</a> |
-                        <a class="nav-link" href="index.html">Portfolio</a> |
-                        <a class="nav-link" href="index.html">Services</a> |
-                        <a class="nav-link" href="index.html">News</a>                    </span>                </p>
+                        <a class="nav-link" href="about.html">About Us</a> |
+                        <a class="nav-link" href="relations.html">Investor Relations</a> |
+                        <a class="nav-link" href="portfolio.html">Portfolio</a> |
+                        <a class="nav-link" href="services.html">Services</a> |
+                        <a class="nav-link" href="news.html">News</a>                    </span>                </p>
             </div>
             <p align="center">&nbsp;</p>
         </div>
@@ -110,13 +145,79 @@
     <!-- Editable Content Area -->
     <!-- #BeginEditable "MainContent" -->
     <div id="content">
-        <p class="style4">This is the content area.</p>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">At LUME Group, we are more than just individual  media/entertainment&nbsp;investments&nbsp;&ndash; we are innovators, visionaries, and  creators of opportunity. Founded with a passion for harnessing the  transformative power of finance, technology, and entertainment, LUME Group is  committed to redefining the landscape of investment management. With a focus on  strategic diversification and value creation, we leverage our expertise and  insights to navigate the complexities of the global market and deliver sustainable  returns for our founder.</p>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">&nbsp;</p>
+        <h2 class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">Our  Mission</h2>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">Our  mission at LUME Group is to empower individuals and organizations to achieve  their financial goals through innovative investment solutions and unparalleled  service excellence. We are dedicated to maximizing value for our investors  while fostering a culture of integrity, transparency, and collaboration. By  embracing change, embracing diversity, and embracing innovation, we strive to  be the catalysts for positive transformation in the world of finance and  beyond.</p>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">&nbsp;</p>
+        <h2 class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">Objectives</h2>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">&nbsp;</p>
+        <ul type="disc" class="style4" style="direction:ltr;unicode-bidi:embed;margin-top:0in; margin-bottom:0in; font-size: xx-large">
+          <ul>
+            <li><span style="font-family:Calibri;">Value Creation: To generate       superior returns for our investors by identifying and capitalizing on       emerging opportunities across various asset classes.</span></li>
+            <li><span style="font-family:Calibri;">Diversification: To build a       resilient and balanced portfolio that mitigates risk and maximizes       long-term growth potential through strategic diversification.</span></li>
+            <li><span style="font-family:Calibri;">Innovation: To leverage       cutting-edge technology, data analytics, and market insights to drive       innovation and stay ahead of the curve in a rapidly evolving landscape.</span></li>
+            <li><span style="font-family:Calibri;">Stewardship: To uphold the       highest standards of integrity, transparency, and accountability in       everything we do, ensuring the trust and confidence of our investors and       stakeholders.</span></li>
+          </ul>
+        </ul>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">&nbsp;</p>
+        <h2 class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">Highlight  of Key Holdings</h2>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">&nbsp;</p>
+        <ol type="1" class="style4" style="direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom: 0in;font-family:Calibri;font-size:xx-large;font-weight:normal;font-style:normal">
+          <ol>
+            <li><span style="font-family:Calibri; font-style:normal; font-weight:normal;">Luminary       Studios:&nbsp;Luminary Studios is a premier production company       specializing in blockbuster films, television series, and digital content.       As a subsidiary of LUME Group, Luminary Studios boasts a diverse portfolio       of successful franchises and original productions, including action-packed       thrillers, captivating dramas, and groundbreaking documentaries.</span></li>
+            <li><span style="font-family:Calibri;">Stellar       Entertainment:&nbsp;Stellar Entertainment is a dynamic production company       known for its innovative approach to storytelling and content creation.       Under the umbrella of LUME Group, Stellar Entertainment produces a wide       range of high-quality films, television shows, and digital media projects       that resonate with audiences worldwide.</span></li>
+            <li><span style="font-family:Calibri;">Visionary       Pictures:&nbsp;Visionary Pictures is a leading production company focused       on delivering thought-provoking films and series that inspire, entertain,       and enlighten. As part of LUME Group's portfolio, Visionary Pictures       collaborates with top talent and visionary filmmakers to produce       compelling content that pushes the boundaries of storytelling.</span></li>
+          </ol>
+        </ol>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">&nbsp;</p>
+        <p class="style4" style="margin:0in;margin-left:.375in;font-family:Calibri;font-size:xx-large">At  LUME Group, we are committed to delivering excellence in investment management  while creating value for our investors and stakeholders. With a  forward-thinking approach and a dedication to innovation, we strive to be the  partner of choice for individuals and organizations seeking to achieve their  financial objectives and unlock new opportunities for growth and prosperity.</p>
+        <p style="margin:0in;margin-left:.375in;font-family:'Lucida Sans Unicode';  font-size:10.0pt;color:white">&nbsp;</p>
     </div>
     <!-- #EndEditable -->
 
     <div id="footer">
-        <p class="style3"><strong><span class="style6"><a class="nav-link" href="index.html">Data Protection</a> | <a class="nav-link" href="index.html">Privacy</a> | <a class="nav-link" href="index.html">Terms of Use</a> | <a class="nav-link" href="index.html">Compliance</a> | <a class="nav-link" href="index.html">Careers</a> | <a class="nav-link" href="index.html">FAQ</a> | <a class="nav-link" href="index.html">Contact Us</a></span></strong></p>
+        <p class="style3"><strong><span class="style9">
+            <a class="nav-link" href="index.html">Data Protection</a> | 
+            <a class="nav-link" href="index.html">Privacy</a> | 
+            <a class="nav-link" href="index.html">Terms of Use</a> | 
+            <a class="nav-link" href="index.html">Compliance</a> | 
+            <a class="nav-link" href="careers.html">Careers</a> | 
+            <a class="nav-link" href="faq.html">FAQ</a> | 
+            <a class="nav-link" href="contact.html">Contact Us</a>
+        </span></strong></p>
         <p class="style3">&copy; 2024 LUME Group. All rights reserved.</p>
     </div>
+	<script>
+        let page = 1; // To keep track of the loaded pages
+
+        const loadMoreContent = () => {
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block'; // Show loading indicator
+
+            // Simulate an AJAX request (replace this with actual AJAX call)
+            setTimeout(() => {
+                const contentDiv = document.getElementById('content');
+                
+                // Load new content (this is just an example)
+                for (let i = 0; i < 5; i++) {
+                    const newContent = document.createElement('p');
+                    newContent.className = 'style4';
+                    newContent.innerText = `More content loaded from page ${page}`;
+                    contentDiv.appendChild(newContent);
+                }
+                
+                page++; // Increment page number
+                loading.style.display = 'none'; // Hide loading indicator
+            }, 1000); // Simulate a delay for loading
+        };
+
+        window.onscroll = () => {
+            // Check if the user has scrolled near the bottom of the page
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+                loadMoreContent(); // Load more content
+            }
+        };
+    </script>
 </body>
 <!-- #EndTemplate --></html>

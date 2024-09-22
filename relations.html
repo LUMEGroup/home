@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUME Group Template</title>
+    <title>LUME Group</title>
 
     <style>
         /* Style the header container */
@@ -16,6 +16,10 @@
             box-sizing: border-box;
             width: 100%;
             background-color: #FFCC00; /* Yellow background for header */
+            position: fixed; /* Fix header to the top */
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure it stays above other content */
         }
 
         /* Style the logo */
@@ -71,37 +75,68 @@
             color: #FFFFFF; /* White text color */
             padding: 20px; /* Padding for spacing */
             text-align: center; /* Centered text */
+            position: fixed; /* Fix footer to the bottom */
+            bottom: 0;
+            left: 0;
+            width: 100%; /* Full width */
         }
 
         /* Additional styles */
         body {
-	background-color: #000000; /* Black background for body */
-	background-image: url(images/GettyImages-1000892576-header-hero.gif);
-	background-size: cover; /* Ensures the image covers the entire screen */
-    background-position: center; /* Centers the image */
-	background-repeat: no-repeat;
+            background-color: #000000; /* Black background for body */
+            background-image: url(images/GettyImages-1000892576-header-hero.gif);
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-repeat: repeat;
+            margin: 0; /* Space for the footer */
+            overflow: auto; /* Enable scrolling */
         }
-    .style4 {color: #FFFFFF}
-.style6 {font-size: 12px}
-    .style8 {color: #FFFFFF; font-weight: bold; }
+
+        #content {
+	border-radius: 8px; /* Optional rounded corners */
+	background-color: rgba (0, 0, 0, 0.5); /* Black background with 50% opacity */
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding-top: 20px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	background-attachment: scroll;
+        }
+
+        .style4 {color: #FFFFFF}
+        .style8 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: x-large;
+}
+    a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #0000FF;
+}
+    .style9 {font-size: medium}
     </style>
 </head>
 <body>
     <div id="header">
-        <div align="center"><img id="logo" src="Templates/images/logo.png" alt="LUME Group Logo" />
-        </div>
+        <div align="center"><img id="logo" src="images/logo.png" alt="LUME Group Logo" /></div>
         <div id="header-text">
             <h1 align="center" class="style2"><strong>LUME Group</strong></h1>
-            <h2 align="center" class="style4 style3"><strong>Privately held individual</strong> <strong>media/entertainment investments</strong></h2>
+            <h2 align="center" class="style4 style3"><strong>Privately held individual</strong></h2>
+            <h2 align="center" class="style4 style3"><strong>media/entertainment investments</strong></h2>
             <div class="nav-container">
                 <p>
                     <span class="style8">
                         <a class="nav-link" href="index.html">Home</a> |
-                        <a class="nav-link" href="index.html">About Us</a> |
-                        <a class="nav-link" href="index.html">Investor Relations</a> |
-                        <a class="nav-link" href="index.html">Portfolio</a> |
-                        <a class="nav-link" href="index.html">Services</a> |
-                        <a class="nav-link" href="index.html">News</a>                    </span>                </p>
+                        <a class="nav-link" href="about.html">About Us</a> |
+                        <a class="nav-link" href="relations.html">Investor Relations</a> |
+                        <a class="nav-link" href="portfolio.html">Portfolio</a> |
+                        <a class="nav-link" href="services.html">Services</a> |
+                        <a class="nav-link" href="news.html">News</a>                    </span>                </p>
             </div>
             <p align="center">&nbsp;</p>
         </div>
@@ -115,8 +150,47 @@
     <!-- InstanceEndEditable -->
 
     <div id="footer">
-        <p class="style3"><strong><span class="style6"><a class="nav-link" href="index.html">Data Protection</a> | <a class="nav-link" href="index.html">Privacy</a> | <a class="nav-link" href="index.html">Terms of Use</a> | <a class="nav-link" href="index.html">Compliance</a> | <a class="nav-link" href="index.html">Careers</a> | <a class="nav-link" href="index.html">FAQ</a> | <a class="nav-link" href="index.html">Contact Us</a></span></strong></p>
+        <p class="style3"><strong><span class="style9">
+            <a class="nav-link" href="index.html">Data Protection</a> | 
+            <a class="nav-link" href="index.html">Privacy</a> | 
+            <a class="nav-link" href="index.html">Terms of Use</a> | 
+            <a class="nav-link" href="index.html">Compliance</a> | 
+            <a class="nav-link" href="careers.html">Careers</a> | 
+            <a class="nav-link" href="faq.html">FAQ</a> | 
+            <a class="nav-link" href="contact.html">Contact Us</a>
+        </span></strong></p>
         <p class="style3">&copy; 2024 LUME Group. All rights reserved.</p>
     </div>
+	<script>
+        let page = 1; // To keep track of the loaded pages
+
+        const loadMoreContent = () => {
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block'; // Show loading indicator
+
+            // Simulate an AJAX request (replace this with actual AJAX call)
+            setTimeout(() => {
+                const contentDiv = document.getElementById('content');
+                
+                // Load new content (this is just an example)
+                for (let i = 0; i < 5; i++) {
+                    const newContent = document.createElement('p');
+                    newContent.className = 'style4';
+                    newContent.innerText = `More content loaded from page ${page}`;
+                    contentDiv.appendChild(newContent);
+                }
+                
+                page++; // Increment page number
+                loading.style.display = 'none'; // Hide loading indicator
+            }, 1000); // Simulate a delay for loading
+        };
+
+        window.onscroll = () => {
+            // Check if the user has scrolled near the bottom of the page
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+                loadMoreContent(); // Load more content
+            }
+        };
+    </script>
 </body>
 <!-- InstanceEnd --></html>
