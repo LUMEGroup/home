@@ -164,9 +164,9 @@
             <div class="nav-container">
                 <p>
                     <span class="style8">
-                        <a class="nav-link" href="../index1.html">Newsletter</a> |
-                        <a class="nav-link" href="../about1.html">Mission</a> |
-                        <a class="nav-link" href="../contributions1.html">Support Center</a>                      
+                        <a class="nav-link" href="../blog/index1.html">Newsletter</a> |
+                        <a class="nav-link" href="../blog/about1.html">Mission</a> |
+                        <a class="nav-link" href="../blog/contributions1.html">Support Center</a>                      
                     </span>
                 </p>
             </div>

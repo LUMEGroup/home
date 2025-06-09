@@ -1,0 +1,17 @@
+// JavaScript Document
+{
+  "2025": {
+    "June": {
+      "9": "June Article Title",
+      "8": "Another Article"
+    },
+    "May": {
+      "31": "May Article",
+      "30": "End of May Article"
+    },
+    "April": {
+      "30": "Last Day of April",
+      "28": "Early Article"
+    }
+  }
+}
