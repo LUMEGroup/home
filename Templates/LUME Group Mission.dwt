@@ -4,7 +4,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission</title>
+	
+    <!-- ✅ Google Tag (gtag.js) for Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3LKS7X32XF"></script>
+    <script>
+	   window.dataLayer = window.dataLayer || [];
+	   function gtag(){dataLayer.push(arguments);}
+	   gtag('js', new Date());
+	   gtag('config', 'G-3LKS7X32XF');
+    </script>
+    
+	<title>Mission</title>
 
     <style>
         /* Style the header container */

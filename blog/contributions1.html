@@ -1,10 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/LUME Group Support Center.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="UTF-8">
     <meta name="p:domain_verify" content="ec6f48e375aae94235d001e8ba75fbf8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support Center</title>
+	
+    <!-- ✅ Google Tag (gtag.js) for Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3LKS7X32XF"></script>
+    <script>
+	   window.dataLayer = window.dataLayer || [];
+	   function gtag(){dataLayer.push(arguments);}
+	   gtag('js', new Date());
+	   gtag('config', 'G-3LKS7X32XF');
+    </script>
+    
+	<title>Support Center</title>
 
     <style>
         /* Style the header container */
@@ -175,12 +185,50 @@
     </div>
 
     <!-- Editable Content Area -->
-    <!-- InstanceBeginEditable name="MainContent" -->
+    <!-- TemplateBeginEditable name="MainContent" -->
     <div id="content">
-        <p class="style4">Under Construction</p>
-        <!-- You can repeat or dynamically load content for infinite scrolling -->
+	  <h1 class="style4">Contribution Rewards</h1>
+	  <h2 class="style4" style="text-align: center;">Support LUME Group - Choose a Thank-You Gift</h2>
+	  <p class="style4" style="text-align: center;">Your donation helps further our mission. Select a complimentary gift below as our appreciation for your contribution.</p>
+
+	  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+		
+		<!-- Financing Project Guide -->
+		<div style="width: 250px; background-color: #ffffff; border-radius: 8px; padding: 15px; text-align: center;">
+		  <img src="../images/4373076_adobe_file_logo_logos_pdf_icon.png" alt="Financing Project Guide" style="max-width: 50%; height: auto; border-radius: 4px;" />
+		  <h2 style="color: #000000;">Financing Project Guide</h2>
+		  <p style="color: #000000;">Receive the Financing Project Guide.</p>
+		  <p style="color: #000000; font-weight: bold;">&quot;Where there is no vision, the people perish... - Proverbs 29:18, KJV"</p>
+		  <p style="color: #000000; font-weight: bold;">Support Level: <span style="color: red; text-decoration: line-through;">$75</span> - now $25</p>
+		  <a href="#" onclick="openPopup('Gift 1', getGift1Content()); return false;" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">View</a>
+		</div>
+		
+		<!-- Budget Template -->
+		<div style="width: 250px; background-color: #ffffff; border-radius: 8px; padding: 15px; text-align: center;">
+		  <img src="../images/6296676_excel_microsoft_office_office365_icon.png" alt="Grant Application Template" style="max-width: 50%; height: auto; border-radius: 4px;" />
+		  <h2 style="color: #000000;">Budget Template</h2>
+		  <p style="color: #000000;">Receive the Budget LibreOffice Spreadsheet Template.</p>
+		  <p style="color: #000000; font-weight: bold;">&quot;For which of you, intending to build a tower, sitteth not down first, and counteth the cost... - Luke 14:28, KJV"</p>
+		  <p style="color: #000000; font-weight: bold;">Support Level: <span style="color: red; text-decoration: line-through;">$25</span> - now $5</p>
+		  <a href="#" onclick="openPopup('Gift 2', getGift2Content()); return false;" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">View</a>
+		</div>
+
+		<!-- Grant Application Template -->
+		<div style="width: 250px; background-color: #ffffff; border-radius: 8px; padding: 15px; text-align: center;">
+		  <img src="../images/4373076_adobe_file_logo_logos_pdf_icon.png" alt="Grant Application Template" style="max-width: 50%; height: auto; border-radius: 4px;" />
+		  <h2 style="color: #000000;">Grant Application Template</h2>
+		  <p style="color: #000000;">Receive the Grant Application fillable PDF template with sample.</p>
+		  <p style="color: #000000; font-weight: bold;">&quot;Write the vision, and make it plain upon tables... - Habakkuk 2:2, KJV"</p>
+		  <p style="color: #000000; font-weight: bold;">Support Level: <span style="color: red; text-decoration: line-through;">$75</span> - now $20</p>
+		  <a href="#" onclick="openPopup('Gift 3', getGift3Content()); return false;" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">View</a>
+		</div>
+		
+		<p class="style4" style="font-size: 0.9em; text-align: center;">
+		  Gifts are offered as a token of appreciation for donations. Donations are not tax-deductible. Please consult your tax advisor.
+		</p>
+	  </div>
     </div>
-    <!-- InstanceEndEditable -->
+    <!-- TemplateEndEditable -->
 	
     <!-- Popup and Overlay -->
     <div class="overlay" id="overlay"></div>
@@ -241,171 +289,195 @@
         };
         
 		// === Gift Popup Content Functions ===
+			// Popup content function for Financing Project Guide
+			function getGift1Content() { 
+			  return `
+				<div style="text-align: left; max-width: 600px; margin: 0 auto;">
+				  <h2 style="text-align: center;">Financing Projects Guide</h2>
+				  
+				  <div style="text-align: center; margin: 20px 0;">
+					<img src="articles/2025/june/gifts/screenshot1.png" alt="Screenshot 1" style="width: 100%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
+				  </div>
+      
+				  <div style="line-height: 1.6;">
+					<p><strong>🎬 For Creatives with a Cause: Fund Your Vision Without Losing Your Voice</strong></p>
+					<p>You have a story that needs telling — but funding it shouldn't feel like a second full-time job. The <em>Financing Social Impact Multimedia Projects Guide</em> was built for creators just like you: passionate, purposeful, and ready to make change, not just content.</p>
+			
+					<p><strong>✅ You’ll Get Tools to Solve What’s Holding You Back:</strong></p>
+			
+					<p><strong>💸 Overwhelmed by fundraising?</strong><br>
+					<strong>Feature:</strong> A clear, step-by-step breakdown of real financing options — grants, sponsorships, crowdfunding, and more.<br>
+					<strong>Benefit:</strong> Go from “Where do I even start?” to “Here’s my funding plan” — with clarity, not chaos.</p>
+			
+					<p><strong>📑 Struggling with grant language?</strong><br>
+					<strong>Feature:</strong> Done-for-you, sample budget, and funder-specific application tips.<br>
+					<strong>Benefit:</strong> Speak the language of funders while staying true to your creative voice.</p>
+			
+					<p><strong>📣 Not sure how to get your work seen or measured?</strong><br>
+					<strong>Feature:</strong> A plug-and-play impact distribution strategy to map where your content goes and how it makes a difference.<br>
+					<strong>Benefit:</strong> Funders will see your project as more than a passion — they’ll see it as a movement.</p>
+			
+					<p><strong>💡 Why This Guide Works for You</strong><br>
+					You see other creators getting funded. You know your project matters. But gatekeeping, jargon, and overwhelm are holding you back. This toolkit cuts through all of that.</p>
+			
+					<p><strong>✔ You’ll walk away with:</strong></p>
+					<ul>
+					  <li>A fully developed funding strategy</li>
+					  <li>Ways to secure grants without being a nonprofit</li>
+					  <li>Confidence to stay true to your mission — without sacrificing clarity or creativity</li>
+					</ul>
+			
+					<p><strong>🎯 You already have the story.<br>
+					Now let’s get it funded.</strong><br>
+					<em>→ Only $25 for the guide supplemental material to follow<br>
+					(Value: $75+)</em></p>
+				  </div>
 
-		function getGift1Content() {
-			return `
-				<div style="text-align: left; max-width: 600px; margin: 0 auto;">
-					<h2 style="text-align: center;">Social Reform White Paper</h2>
-					<div style="text-align: center; margin: 20px 0;">
-					  <img src="images/product1-1.jpg" alt="Screenshot 1" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="https://placehold.co/300x400?text=Screenshot+2" alt="Screenshot 2" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="images/product1-3.jpg" alt="Screenshot 3" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					</div>
-					<p><Strong>Support Level: <span style="color: red; text-decoration: line-through;">$815</span> � now $420</p>
-					<p>An in-depth research-based white paper package with practical tools to support organizational change and advocacy.</p>
-					<ul style="line-height: 1.6;">
-						<li><strong>Comprehensive White Paper:</strong> $150<br>
-						(In-depth research, structured content, actionable strategies)</li>
-						<li><strong>Staff Survey Tools for Culture Audits:</strong> $100<br>
-						(Custom surveys, data collection design)</li>
-						<li><strong>Compliance Checklists for HR & Leadership:</strong> $80<br>
-						(Practical, ready-to-use checklists)</li>
-						<li><strong>Sample Advocacy Letters and Internal Memos (7 samples):</strong> $100<br>
-						(Professional communication templates)</li>
-						<li><strong>Email/Newsletter Templates (7 samples):</strong> $80<br>
-						(Marketing and engagement tools)</li>
-						<li><strong>Extensive FAQs for Change Management (50 Q&A):</strong> $125<br>
-						(Detailed, anticipatory guidance)</li>
-						<li><strong>Call to Action Support Materials:</strong> $80<br>
-						(Communication strategies and engagement plans)</li>
-						<li><strong>Stakeholder Map for Implementation Guidelines:</strong> $100<br>
-						(Strategic planning tool)</li>
-					</ul>
-					<div style="text-align: center; margin-top: 20px;">
-						<a href="https://buy.stripe.com/test_abc1" target="_blank" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">Donate & Recieve</a>
+				  <div style="text-align: center; margin-top: 20px;">
+					<a href="https://buy.stripe.com/cNifZi3NG3fnbD3chn7AI00" target="_blank" 
+					   style="background-color: #FFCC00; color: #000; padding: 10px 15px; 
+					   text-decoration: none; border-radius: 4px; display: inline-block;">
+					   Donate & Receive
+					</a>
+				  </div>
 				</div>
-			`;
-		}
-		
-		function getGift2Content() {
-			return `
+			  `;
+			}
+			// Popup content function for Download 2
+			function getGift2Content() { 
+			  return `
 				<div style="text-align: left; max-width: 600px; margin: 0 auto;">
-					<h2 style="text-align: center;">The Supplemental Onboarding Module</h2>
-					<div style="text-align: center; margin: 20px 0;">
-					  <img src="images/product1-1.jpg" alt="Screenshot 1" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="https://placehold.co/300x400?text=Page+2" alt="Screenshot 2" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="images/product1-3.jpg" alt="Screenshot 3" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					</div>
-					<p><Strong>Support Level: <span style="color: red; text-decoration: line-through;">$300</span> � now $150</p>
-					<p>A standardized onboarding module on ethics and collaboration with facilitation tools.</p>
-					<ul style="line-height: 1.6;">
-						<li><strong>Standardized Onboarding Module on Ethics and Collaboration:</strong> $120<br>  
-						(Training content, instructional design)</li>
-						<li><strong>Interactive Case Studies for Situational Decision-Making:</strong> $100<br>  
-						(Engagement tools for learning reinforcement)</li>
-						<li><strong>Post-Training Assessments and Feedback Forms:</strong> $80<br>  
-						(Evaluation tools)</li>
-					</ul>
-					<div style="text-align: center; margin-top: 20px;">
-						<a href="https://buy.stripe.com/test_abc1" target="_blank" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">Donate & Recieve</a>
+				  <h2 style="text-align: center;">Budget Template</h2>
+				  
+				  <div style="text-align: center; margin: 20px 0;">
+					<img src="articles/2025/june/gifts/screenshot2.png" alt="Screenshot 2" style="width: 100%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
+				  </div>
+				  
+				  <div style="line-height: 1.6;">
+					<p><strong>🎬 For Creatives Who Budget with Purpose: Plan Your Project Without Losing Your Sanity</strong></p>
+					<p>You’re not just making a film — you’re building something that matters. But between funders, stakeholders, and spreadsheets, it’s easy to lose your focus. The <strong>All-in-One Budget Template for Impact Media Projects</strong> was made for storytellers like you: mission-driven, meticulous, and ready to run a smart production from idea to impact.</p>
+			
+					<p><strong>✅ You’ll Get Tools to Solve What’s Holding You Back:</strong></p>
+			
+					<p><strong>💸 Struggling to organize your production budget?</strong><br>
+					<em>Feature:</em> A section-by-section template covering Development, Production, Post-Production, Distribution, Impact, and more.<br>
+					<em>Benefit:</em> Stop piecing together numbers from scratch — start with a clear, funder-ready structure that reflects the full scope of your work.</p>
+			
+					<p><strong>📑 Need to impress funders and collaborators?</strong><br>
+					<em>Feature:</em> Built-in subtotals, editable notes, and clean formatting tailored for grant proposals and decks.<br>
+					<em>Benefit:</em> Look credible and prepared from day one — even if budgeting isn’t your thing.</p>
+			
+					<p><strong>🔄 Tired of budgets that break every time your plan evolves?</strong><br>
+					<em>Feature:</em> Flexible and editable formatting, designed to evolve with your project.<br>
+					<em>Benefit:</em> Make updates easily without rebuilding your entire budget — because change is part of the process.</p>
+			
+					<p><strong>📣 Want your impact campaign to be part of the plan, not an afterthought?</strong><br>
+					<em>Feature:</em> Dedicated sections for outreach, engagement, and campaign costs.<br>
+					<em>Benefit:</em> Show funders you’re thinking beyond the screen — and that their support creates real-world results.</p>
+			
+					<p><strong>🧠 Feeling overwhelmed by the details?</strong><br>
+					<em>Feature:</em> A streamlined, no-fluff layout that guides you through each cost category — including contingency and in-kind support.<br>
+					<em>Benefit:</em> Reduce stress, increase accuracy, and finally feel in control of your budget.</p>
+			
+					<p><strong>💡 Why This Template Works for You</strong><br>
+					You’re not a numbers person — you’re a mission person. But the right financial tools can be a powerful part of your storytelling. This template gives you the structure you need to plan with purpose and pitch with confidence.</p>
+			
+					<p><strong>✔ You’ll walk away with:</strong><br>
+					• A professional, funder-ready budget template<br>
+					• A framework that reflects the full scope of your creative and impact work<br>
+					• Clarity on costs, funding gaps, and strategic priorities<br>
+					• Peace of mind when the next grant or partner asks, “Do you have a budget?”</p>
+			
+					<p><strong>🎯 You already have the story.</strong><br>
+					Now let’s make sure the numbers back it up.<br>
+					<strong>→ Just $5 for the full template</strong><br>
+					<em>(Value: $25+ in time and stress saved)</em></p>
 				</div>
-			`;
-		}
-		
-		function getGift3Content() {
-			return `
+			
+				  <div style="text-align: center; margin-top: 20px;">
+					<a href="https://buy.stripe.com/4gM28sbg84jr7mNbdj7AI01" target="_blank" 
+					   style="background-color: #FFCC00; color: #000; padding: 10px 15px; 
+					   text-decoration: none; border-radius: 4px; display: inline-block;">
+					   Donate & Receive
+					</a>
+				  </div>
+				</div>
+			  `;
+			}
+			// Popup content function for Download 3
+			function getGift3Content() { 
+			  return `
 				<div style="text-align: left; max-width: 600px; margin: 0 auto;">
-					<h2 style="text-align: center;">The Bonus Dashboard Coding Text-Based Walk-Through Tutorial</h2>
-					<div style="text-align: center; margin: 20px 0;">
-					  <img src="images/product1-1.jpg" alt="Screenshot 1" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="https://placehold.co/300x400?text=Page+2" alt="Screenshot 2" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="images/product1-3.jpg" alt="Screenshot 3" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					</div>
-					<p><Strong>Support Level: <span style="color: red; text-decoration: line-through;">$815</span> � now $420</p>
-					<p>An in-depth research-based white paper package with practical tools to support organizational change and advocacy.</p>
-					<ul style="line-height: 1.6;">
-						<li><strong>Comprehensive White Paper:</strong> $150<br>
-						(In-depth research, structured content, actionable strategies)</li>
-						<li><strong>Staff Survey Tools for Culture Audits:</strong> $100<br>
-						(Custom surveys, data collection design)</li>
-						<li><strong>Compliance Checklists for HR & Leadership:</strong> $80<br>
-						(Practical, ready-to-use checklists)</li>
-						<li><strong>Sample Advocacy Letters and Internal Memos (7 samples):</strong> $100<br>
-						(Professional communication templates)</li>
-						<li><strong>Email/Newsletter Templates (7 samples):</strong> $80<br>
-						(Marketing and engagement tools)</li>
-						<li><strong>Extensive FAQs for Change Management (50 Q&A):</strong> $125<br>
-						(Detailed, anticipatory guidance)</li>
-						<li><strong>Call to Action Support Materials:</strong> $80<br>
-						(Communication strategies and engagement plans)</li>
-						<li><strong>Stakeholder Map for Implementation Guidelines:</strong> $100<br>
-						(Strategic planning tool)</li>
-					</ul>
-					<div style="text-align: center; margin-top: 20px;">
-						<a href="https://buy.stripe.com/test_abc1" target="_blank" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">Donate & Recieve</a>
+				  <h2 style="text-align: center;">Grant Application Template</h2>
+				  
+				  <div style="text-align: center; margin: 20px 0;">
+					<img src="articles/2025/june/gifts/screenshot3.png" alt="Screenshot 3" style="width: 100%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
+				  </div>
+				  
+				  <div style="line-height: 1.6;">
+					<p>
+					  🎬 <strong>For Filmmakers & Social Impact Producers: Secure Your Grant Without Losing Your Vision</strong>
+					</p>
+					<p>
+					  You have a compelling story that can inspire change — but writing grant proposals shouldn’t drain your creative energy. The Grant Proposal Template was crafted for storytellers like you: mission-driven, detail-oriented, and ready to turn vision into funded reality.
+					</p>
+			
+					<p><strong>✅ You’ll Get Tools to Solve What’s Holding You Back:</strong></p>
+			
+					<p>📢 <strong>Struggling to clearly communicate your project’s vision and impact?</strong><br />
+					  Feature: Guided sections for your project summary, vision, impact statement, and goals.<br />
+					  Benefit: Make funders see why your story matters and how it will create change — with clarity and confidence.
+					</p>
+			
+					<p>📊 <strong>Worried your budget and timeline won’t add up?</strong><br />
+					  Feature: Easy-to-use budget summaries, funding trackers, and production timelines.<br />
+					  Benefit: Show grant committees you have a realistic, professional plan — no guesswork or red flags.
+					</p>
+			
+					<p>🤝 <strong>Need to highlight your team’s strengths?</strong><br />
+					  Feature: Dedicated bios and key personnel sections.<br />
+					  Benefit: Build credibility by showcasing the expertise behind your project.
+					</p>
+			
+					<p>📝 <strong>Overwhelmed by paperwork and supporting materials?</strong><br />
+					  Feature: Checklists for letters of support, mood boards, sample clips, and more.<br />
+					  Benefit: Submit a complete, polished proposal package that stands out from the competition.
+					</p>
+			
+					<p>🔄 <strong>Tired of rewriting and second-guessing your proposal?</strong><br />
+					  Feature: Editable, flexible template designed for easy revisions and customization.<br />
+					  Benefit: Save time and stress while perfecting your application — because every detail counts.
+					</p>
+			
+					<p><strong>💡 Why This Template Works for You</strong><br />
+					  Grant applications can be confusing and time-consuming. This template simplifies the process so you can focus on what matters most: telling your story and securing funding. Gain clarity, professionalism, and the confidence to stand out.
+					</p>
+			
+					<p><strong>✔ You’ll walk away with:</strong><br />
+					  • A comprehensive, funder-ready grant proposal template<br />
+					  • Tools to clearly demonstrate impact and feasibility<br />
+					  • A polished presentation of your team and project plan<br />
+					  • Peace of mind knowing you’re ready for any grant opportunity
+					</p>
+			
+					<p>
+					  🎯 You already have the vision.<br />
+					  Now get the grant.<br />
+					  → Just <strong>$20</strong> for the full template<br />
+					  (Value $75+: Hours of time saved and countless headaches avoided)
+					</p>
+				  </div>
+			
+				  <div style="text-align: center; margin-top: 20px;">
+					<a href="https://buy.stripe.com/5kQ00k4RK8zHfTj95b7AI02" target="_blank" 
+					   style="background-color: #FFCC00; color: #000; padding: 10px 15px; 
+					   text-decoration: none; border-radius: 4px; display: inline-block;">
+					   Donate & Receive
+					</a>
+				  </div>
 				</div>
-			`;
-		}
-		
-		function getGift4Content() {
-			return `
-				<div style="text-align: left; max-width: 600px; margin: 0 auto;">
-					<h2 style="text-align: center;">The Supplemental Power BI Dashboard Template File</h2>
-					<div style="text-align: center; margin: 20px 0;">
-					  <img src="https://placehold.co/300x400?text=Screenshot+1" alt="Screenshot 1" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="https://placehold.co/300x400?text=Screenshot+2" alt="Screenshot 2" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="https://placehold.co/300x400?text=Screenshot+3" alt="Screenshot 3" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					</div>
-					<p><Strong>Support Level: <span style="color: red; text-decoration: line-through;">$815</span> � now $420</p>
-					<p>An in-depth research-based white paper package with practical tools to support organizational change and advocacy.</p>
-					<ul style="line-height: 1.6;">
-						<li><strong>Comprehensive White Paper:</strong> $150<br>
-						(In-depth research, structured content, actionable strategies)</li>
-						<li><strong>Staff Survey Tools for Culture Audits:</strong> $100<br>
-						(Custom surveys, data collection design)</li>
-						<li><strong>Compliance Checklists for HR & Leadership:</strong> $80<br>
-						(Practical, ready-to-use checklists)</li>
-						<li><strong>Sample Advocacy Letters and Internal Memos (7 samples):</strong> $100<br>
-						(Professional communication templates)</li>
-						<li><strong>Email/Newsletter Templates (7 samples):</strong> $80<br>
-						(Marketing and engagement tools)</li>
-						<li><strong>Extensive FAQs for Change Management (50 Q&A):</strong> $125<br>
-						(Detailed, anticipatory guidance)</li>
-						<li><strong>Call to Action Support Materials:</strong> $80<br>
-						(Communication strategies and engagement plans)</li>
-						<li><strong>Stakeholder Map for Implementation Guidelines:</strong> $100<br>
-						(Strategic planning tool)</li>
-					</ul>
-					<div style="text-align: center; margin-top: 20px;">
-						<a href="https://buy.stripe.com/test_abc1" target="_blank" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">Donate & Recieve</a>
-				</div>
-			`;
-		}
-		
-		function getGift5Content() {
-			return `
-				<div style="text-align: left; max-width: 600px; margin: 0 auto;">
-					<h2 style="text-align: center;">The Supplemental Presentation Template File</h2>
-					<div style="text-align: center; margin: 20px 0;">
-					  <img src="images/product1-1.jpg" alt="Screenshot 1" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="https://placehold.co/300x400?text=Page+2" alt="Screenshot 2" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					  <img src="images/product1-3.jpg" alt="Screenshot 3" style="width: 33.333%; display: inline-block; vertical-align: top; margin: 0; padding: 0; border: 0;" />
-					</div>
-					<p><Strong>Support Level: <span style="color: red; text-decoration: line-through;">$815</span> � now $420</p>
-					<p>An in-depth research-based white paper package with practical tools to support organizational change and advocacy.</p>
-					<ul style="line-height: 1.6;">
-						<li><strong>Comprehensive White Paper:</strong> $150<br>
-						(In-depth research, structured content, actionable strategies)</li>
-						<li><strong>Staff Survey Tools for Culture Audits:</strong> $100<br>
-						(Custom surveys, data collection design)</li>
-						<li><strong>Compliance Checklists for HR & Leadership:</strong> $80<br>
-						(Practical, ready-to-use checklists)</li>
-						<li><strong>Sample Advocacy Letters and Internal Memos (7 samples):</strong> $100<br>
-						(Professional communication templates)</li>
-						<li><strong>Email/Newsletter Templates (7 samples):</strong> $80<br>
-						(Marketing and engagement tools)</li>
-						<li><strong>Extensive FAQs for Change Management (50 Q&A):</strong> $125<br>
-						(Detailed, anticipatory guidance)</li>
-						<li><strong>Call to Action Support Materials:</strong> $80<br>
-						(Communication strategies and engagement plans)</li>
-						<li><strong>Stakeholder Map for Implementation Guidelines:</strong> $100<br>
-						(Strategic planning tool)</li>
-					</ul>
-					<div style="text-align: center; margin-top: 20px;">
-						<a href="https://buy.stripe.com/test_abc1" target="_blank" style="background-color: #FFCC00; color: #000; padding: 10px 15px; text-decoration: none; border-radius: 4px; display: inline-block;">Donate & Recieve</a>
-				</div>
-			`;
-		}
+			  `;
+			}
     </script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
