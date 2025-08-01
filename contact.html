@@ -192,12 +192,31 @@
     <!-- Editable Content Area -->
     <!-- InstanceBeginEditable name="MainContent" -->
     <div id="content">
-        <p class="style4">This is the content area. Scroll down for more content.</p>
-        <p class="style4">More content here...</p>
-        <p class="style4">Keep scrolling for more!</p>
-        <p class="style4">More content...</p>
-        <p class="style4">Even more content...</p>
-        <!-- You can repeat or dynamically load content for infinite scrolling -->
+		<h2 class="style4">Contact Us</h2>
+		<form method="POST" action="https://lumegroup.info/api/submit" id="contact-form">
+			
+			<label for="name" style="color: #FFFFFF;">Name:</label><br />
+			<input type="text" id="name" name="name" required 
+				   style="color: #FFFFFF; background-color: #222222; border: 1px solid #FFFFFF; padding: 10px; width: 100%; box-sizing: border-box;" /><br /><br />
+	
+			<label for="email" style="color: #FFFFFF;">Email:</label><br />
+			<input type="email" id="email" name="email" required 
+				   style="color: #FFFFFF; background-color: #222222; border: 1px solid #FFFFFF; padding: 10px; width: 100%; box-sizing: border-box;" /><br /><br />
+	
+			<label for="message" style="color: #FFFFFF;">Message:</label><br />
+			<textarea id="message" name="message" rows="5" required 
+					  style="color: #FFFFFF; background-color: #222222; border: 1px solid #FFFFFF; padding: 10px; width: 100%; box-sizing: border-box;"></textarea><br /><br />
+	
+			<!-- ✅ Cloudflare Turnstile Captcha -->
+			<div class="cf-turnstile" data-sitekey="0x4AAAAAABndp9y96aj-F9zz"></div><br />
+	
+			<button type="submit" 
+					style="color: #FFFFFF; background-color: #444444; border: 1px solid #FFFFFF; padding: 10px 20px; cursor: pointer;">
+				Submit
+			</button>
+		</form>
+		
+		<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     </div>
     <!-- InstanceEndEditable -->
 	
