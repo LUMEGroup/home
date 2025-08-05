@@ -356,6 +356,7 @@
                 page++;
             }, 1000); // Simulate a 1-second delay
         };
+		function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"8ebdd22f69d42f0926d3f374565e448e"})});
     </script>
 </body>
 <!-- InstanceEnd --></html>
